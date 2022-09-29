@@ -17,13 +17,13 @@ const CourseTimelineCard = props => {
         </div>
       </div>
       <p className="course-desc">{description}</p>
-      <ul className="course-u-list">
+      <div className="course-u-list">
         {courseCard.tagsList.map(tags => (
-          <li className="course-list" key={tags.id}>
+          <p className="course-list" key={tags.id}>
             {tags.name}
-          </li>
+          </p>
         ))}
-      </ul>
+      </div>
     </div>
   )
 }
