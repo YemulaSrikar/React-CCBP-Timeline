@@ -6,9 +6,20 @@
   font-size: 20px;
   font-weight: 800;
 }
+@media screen and (max-width: 576px) {
+  .course-main-title {
+    font-size: 17px;
+  }
+}
 .duration-container {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .duration-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .icon-container {
   display: flex;
@@ -27,6 +38,11 @@
   color: #1e293b;
   font-size: 13px;
   font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .course-desc {
+    font-size: 10px;
+  }
 }
 .course-u-list {
   list-style-type: none;
