@@ -4,6 +4,12 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 576px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .calender-icon-container {
   display: flex;
 }
@@ -18,7 +24,7 @@
 @media screen and (max-width: 576px) {
   .project-img {
     height: 60px;
-    width: 50%;
+    width: 80%;
   }
 }
 .project-title {
@@ -27,10 +33,20 @@
   font-size: 20px;
   font-weight: 800;
 }
+@media screen and (max-width: 576px) {
+  .project-title {
+    font-size: 17px;
+  }
+}
 .project-desc {
   color: #1e293b;
   font-size: 13px;
   font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .project-desc {
+    font-size: 10px;
+  }
 }
 .project-link {
   color: #0967d2;
