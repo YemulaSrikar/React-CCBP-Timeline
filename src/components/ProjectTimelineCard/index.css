@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+.calender-icon-container {
+  display: flex;
+}
+.calender-icon {
+  margin-top: 18px;
+  margin-right: 07px;
+}
+.project-img {
+  height: 180px;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .project-img {
+    height: 60px;
+    width: 50%;
+  }
+}
+.project-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+}
+.project-desc {
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 500;
+}
+.project-link {
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.project-duration {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+}

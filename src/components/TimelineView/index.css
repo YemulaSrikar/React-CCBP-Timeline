@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.chrono-container {
+  width: 900px;
+}
+@media screen and (max-width: 575px) {
+  .chrono-container {
+    width: 500px;
+  }
+}
+.my-journey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my-journey {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.ccbp {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 35px;
+}
